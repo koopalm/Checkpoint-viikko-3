@@ -59,3 +59,5 @@ def upload_file(file_name, bucket, object_name=None):
 if __name__ == "__main__":
     create_bucket("katri-checkpoint-3", "eu-north-1")
     upload_file("checkpoint.txt", "katri-checkpoint-3")
+
+# final commit 
